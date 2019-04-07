@@ -1,6 +1,7 @@
 // write your code below!
-var 'name' = '"Susan"'
-var height = 74;
-var message = (` is ${height} inches tall`);
-('what is a test') = ('name' and 'height')
-expect ('what is a test') = ('is ${height} inches tall')
+var name = "Susan"
+var height = 30;
+var message = `${name} is ${height} inches tall`;
+var message = `30 is less than 40`;
+var message = `${name} and ${height}`
+module.exports = {name, height, message}
